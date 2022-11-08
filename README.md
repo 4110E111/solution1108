@@ -1,5 +1,6 @@
 
 # OSI 模型與TCP/IP protocal suite
+## OSI有七層?簡述其功能
 - (一) 實體層 (Physical Layer)
   - 訂定電腦連接的電氣特定協定
 
@@ -18,8 +19,6 @@
   - 處理不同資料格式之間的字碼轉換及編碼及解碼
 - (七) 應用層 (Application Layer)
   - 提供使用者介面
-## OSI有七層?簡述其功能
-
 ## 底下網路設備運作在哪一層? Hub, switch, router, L4-switch, proxy
 ## TCP/IP有那些層?寫出與OSI七層模型的對應!
 
