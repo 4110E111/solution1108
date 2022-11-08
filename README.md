@@ -14,7 +14,7 @@
   - 重傳之前先校正錯誤
 - (五) 交談層 (Session Layer)
   - 負責建立、管理、以及終止兩個通訊主機的對話
-- (六) 表現層 (Presentation Layer
+- (六) 表現層 (Presentation Layer)
   - 處理不同資料格式之間的字碼轉換及編碼及解碼
 - (七) 應用層 (Application Layer)
   - 提供使用者介面
