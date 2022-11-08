@@ -1,6 +1,23 @@
 
 # OSI 模型與TCP/IP protocal suite
+- (一) 實體層 (Physical Layer)
+  - 訂定電腦連接的電氣特定協定
 
+- (二) 資料鏈結層 (Data-Link Layer)
+  - 訊框 (frame) 與實體位置 (MAC) 
+分為兩個子層：
+- (三) 網路層 (Network Layer)
+  - 邏輯定址
+  -資料封包 (packet) 的傳輸路徑(Routing)選擇
+- (四) 傳輸層 (Transport Layer)
+  - 提供可靠或不可靠的遞送
+  - 重傳之前先校正錯誤
+- (五) 交談層 (Session Layer)
+  - 負責建立、管理、以及終止兩個通訊主機的對話
+- (六) 表現層 (Presentation Layer
+  - 處理不同資料格式之間的字碼轉換及編碼及解碼
+- (七) 應用層 (Application Layer)
+  - 提供使用者介面
 ## OSI有七層?簡述其功能
 
 ## 底下網路設備運作在哪一層? Hub, switch, router, L4-switch, proxy
@@ -21,7 +38,15 @@
     - 利用 SSL/TLS 來加密封包
     - 在不安全的網路上建立一個安全信道
 - DNS vs DNSsec
+  - DNS
+    - Domain Name System 網域名稱系統
+    - 是網際網路的電話簿
+    - DNS 將網域名稱轉換為 IP 位址
+    - 每個 Domain Name 必須對應要一組 IP
+    - 長度不能超過253個字元
 - telnet vs ssh
+  - telnet
+    -  
 - ftp vs sftp
 - smtp, pop3
 - SNMP
