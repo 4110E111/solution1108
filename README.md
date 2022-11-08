@@ -1,2 +1,2 @@
 - HTTP vs HTTPS
- -HTTP
+ - HTTP
