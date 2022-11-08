@@ -46,8 +46,22 @@
     - 長度不能超過253個字元
 - telnet vs ssh
   - telnet
-    -  
+    - Telnet 是一種應用層協議 
+    - 提供雙向、以文字字串為主的命令列介面互動功能
+    - 屬於TCP/IP協議族的其中之一
+    - 常用於伺服器的遠端控制
+    - Telnet 是常用的遠程控制 Web 服務器的方法
+  - ssh
+    - Secure Shell Protocol 安全外殼協定
+    - 是一種加密的網路傳輸協定
+    - 可在不安全的網路中為網路服務提供安全的傳輸環境
+    - SSH 使用頻率最高的場合是類Unix系統 
+    - SSH 最常見的用途是遠端登入系統
 - ftp vs sftp
+  - ftp
+    - File Transfer Protocol 檔案傳輸協定
+    - 是一個用於在電腦網路上在客戶端和伺服器之間進行檔案傳輸的應用層協定 
+  - sftp 
 - smtp, pop3
 - SNMP
 
