@@ -60,15 +60,29 @@
     - File Transfer Protocol 檔案傳輸協定
     - 是一個用於在電腦網路上在客戶端和伺服器之間進行檔案傳輸的應用層協定 
   - sftp 
+    - Secure FTP 安全檔案傳送協定 
 - smtp, pop3
+  - smtp
+    - Simple Mail Transfer Protocol 簡單郵遞傳送協定 
+  - pop3 
+    - Post Office Protocol 郵局協議 
 - SNMP
+    - Simple Network Management Protocol 簡單網路管理協定
 
 ## 簡述底下傳輸層協定(英文全名與簡單功能說明):TCP vs UDP
-- TCP
+- TCP vs UDP
+  - TCP
+    - Transmission Control Protocol 傳輸控制協定
+  - UDP
+    - User Datagram Protocol 使用者資料包協定
+  
+  
   - reliable(可靠的) vs unreliable(不可靠的)
   - TCP three-way handshaking(三項交握)  
   - TCP syn flood attack
 
 ## 簡述底下網路層協定(英文全名與簡單功能說明): IP   ICMP
 - IP
+  - Internet Protocol 網際協定
 - ICMP
+  - Internet Control Message Protocol 網際網路控制訊息協定
