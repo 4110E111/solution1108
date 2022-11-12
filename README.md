@@ -5,7 +5,7 @@
   - 訂定電腦連接的電氣特定協定
 
 - (二) 資料鏈結層 (Data-Link Layer)
-  - 訊框 (frame) 與實體位置 (MAC) 
+  - 訊框與實體位置 
 - (三) 網路層 (Network Layer)
   - 邏輯定址
   -資料封包 (packet) 的傳輸路徑(Routing)選擇
