@@ -19,6 +19,16 @@
 - (七) 應用層 (Application Layer)
   - 提供使用者介面
 ## 底下網路設備運作在哪一層? Hub, switch, router, L4-switch, proxy
+- Hub
+  - 第一層
+- Switch
+  - 第二層 
+- Router
+  - 第三層
+- L4-switch
+  - 第四層
+- Proxy
+  - 第七層
 ## TCP/IP有那些層?寫出與OSI七層模型的對應!
 
 ## 簡述底下應用層協定(英文全名與簡單功能說明):
