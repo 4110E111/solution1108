@@ -29,10 +29,10 @@
 - Proxy
   - 第七層
 ## TCP/IP有那些層?寫出與OSI七層模型的對應!
-- (一) 網路存取層 (Network Access Layer) --> 實體層、資料鏈結層
-- (二) 網路互連層 (Internet Layer) --> 網路層
-- (三) 傳輸層 (Transport Layer) --> 傳輸層
-- (四) 應用層 (Application Layer) --> 會議層、表現層、應用層
+- (一) `網路存取層` (Network Access Layer) --> 實體層、資料鏈結層
+- (二) `網路互連層` (Internet Layer) --> 網路層
+- (三) `傳輸層` (Transport Layer) --> 傳輸層
+- (四) `應用層` (Application Layer) --> 會議層、表現層、應用層
 ## 簡述底下應用層協定(英文全名與簡單功能說明):
 - HTTP vs HTTPs
   - HTTP
