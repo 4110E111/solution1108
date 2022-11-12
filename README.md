@@ -81,7 +81,7 @@
 - SNMP
     - 簡單網路管理協定 (Simple Network Management Protocol)
 
-## 簡述底下傳輸層協定(英文全名與簡單功能說明):TCP vs UDP
+## 簡述底下傳輸層協定(英文全名與簡單功能說明):
 - TCP vs UDP
   - TCP
     - 傳輸控制協定 (Transmission Control Protocol)
@@ -93,7 +93,7 @@
  - TCP three-way handshaking(三項交握)  
  - TCP syn flood attack
 
-## 簡述底下網路層協定(英文全名與簡單功能說明): IP   ICMP
+## 簡述底下網路層協定(英文全名與簡單功能說明):
 - IP
   - 網際協定 (Internet Protocol)
 - ICMP
