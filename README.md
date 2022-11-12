@@ -89,9 +89,9 @@
     - 使用者資料包協定 (User Datagram Protocol)
   
   
-  - reliable(可靠的) vs unreliable(不可靠的)
-  - TCP three-way handshaking(三項交握)  
-  - TCP syn flood attack
+ - reliable(可靠的) vs unreliable(不可靠的)
+ - TCP three-way handshaking(三項交握)  
+ - TCP syn flood attack
 
 ## 簡述底下網路層協定(英文全名與簡單功能說明): IP   ICMP
 - IP
