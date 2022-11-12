@@ -1,7 +1,7 @@
 
 # OSI 模型與TCP/IP protocal suite
 ## OSI有七層?簡述其功能
-- (一) '實體層' (Physical Layer)
+- (一) `實體層` (Physical Layer)
   - 訂定電腦連接的電氣特定協定
 - (二) 資料鏈結層 (Data-Link Layer)
   - 訊框與實體位置 
