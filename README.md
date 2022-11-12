@@ -3,19 +3,19 @@
 ## OSI有七層?簡述其功能
 - (一) `實體層` (Physical Layer)
   - 訂定電腦連接的電氣特定協定
-- (二) 資料鏈結層 (Data-Link Layer)
+- (二) `資料鏈結層` (Data-Link Layer)
   - 訊框與實體位置 
-- (三) 網路層 (Network Layer)
+- (三) `網路層` (Network Layer)
   - 邏輯定址
   - 資料封包的傳輸路徑選擇
-- (四) 傳輸層 (Transport Layer)
+- (四) `傳輸層` (Transport Layer)
   - 提供可靠或不可靠的遞送
   - 重傳之前先校正錯誤
-- (五) 會議層 (Session Layer)
+- (五) `會議層` (Session Layer)
   - 負責建立、管理、以及終止兩個通訊主機的對話
-- (六) 表現層 (Presentation Layer)
+- (六) `表現層` (Presentation Layer)
   - 處理不同資料格式之間的字碼轉換及編碼及解碼
-- (七) 應用層 (Application Layer)
+- (七) `應用層` (Application Layer)
   - 提供使用者介面
 ## 底下網路設備運作在哪一層? Hub, switch, router, L4-switch, proxy
 - Hub
