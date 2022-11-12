@@ -3,7 +3,6 @@
 ## OSI有七層?簡述其功能
 - (一) 實體層 (Physical Layer)
   - 訂定電腦連接的電氣特定協定
-
 - (二) 資料鏈結層 (Data-Link Layer)
   - 訊框與實體位置 
 - (三) 網路層 (Network Layer)
@@ -12,7 +11,7 @@
 - (四) 傳輸層 (Transport Layer)
   - 提供可靠或不可靠的遞送
   - 重傳之前先校正錯誤
-- (五) 交談層 (Session Layer)
+- (五) 會議層 (Session Layer)
   - 負責建立、管理、以及終止兩個通訊主機的對話
 - (六) 表現層 (Presentation Layer)
   - 處理不同資料格式之間的字碼轉換及編碼及解碼
@@ -30,7 +29,10 @@
 - Proxy
   - 第七層
 ## TCP/IP有那些層?寫出與OSI七層模型的對應!
-
+- (一) 網路存取層 (Network Access Layer) --> 實體層、資料鏈結層
+- (二) 網路互連層 (Internet Layer) --> 網路層
+- (三) 傳輸層 (Transport Layer) --> 傳輸層
+- (四) 應用層 (Application Layer) --> 會議層、表現層、應用層
 ## 簡述底下應用層協定(英文全名與簡單功能說明):
 - HTTP vs HTTPs
   - HTTP
