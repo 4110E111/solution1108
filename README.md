@@ -13,7 +13,7 @@
 - (五) `會議層` (Session Layer)
   - 負責建立、管理、以及終止兩個通訊主機的對話
 - (六) `表現層` (Presentation Layer)
-  - 處理不同資料格式之間的字碼轉換及編碼及解碼
+  - 處理不同資料格式之間的字碼轉換及編碼和解碼
 - (七) `應用層` (Application Layer)
   - 提供使用者介面
 ## 底下網路設備運作在哪一層? Hub, switch, router, L4-switch, proxy
