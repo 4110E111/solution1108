@@ -71,7 +71,7 @@
     - 檔案傳輸協定 (File Transfer Protocol)
     - 是一個用於在電腦網路上在客戶端和伺服器之間進行檔案傳輸的應用層協定 
   - sftp 
-    - Secure FTP 安全檔案傳送協定 
+    - 安全檔案傳送協定 (Secure FTP)
 - smtp, pop3
   - smtp
     - 簡單郵遞傳送協定 (Simple Mail Transfer Protocol) 
