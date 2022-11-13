@@ -69,31 +69,86 @@
 - ftp vs sftp
   - ftp
     - 檔案傳輸協定 (File Transfer Protocol)
-    - 是一個用於在電腦網路上在客戶端和伺服器之間進行檔案傳輸的應用層協定 
+    - 是一種主從式協定
+    - 是一個用於在電腦網路上在客戶端和伺服器之間進行檔案傳輸的應用層協定
+    - 可以同時傳遞多個檔案
+    - 安全性不足 
   - sftp 
     - 安全檔案傳送協定 (Secure FTP)
+    - 是一種檔案傳輸協定
+    - 可在檔案傳遞時提供較高的保護層級
+    - 許多人認為它是安全文件傳輸的最佳方法
+    - 為遠端電腦提供安全訪問
 - smtp, pop3
   - smtp
     - 簡單郵遞傳送協定 (Simple Mail Transfer Protocol) 
+    - 可用在傳送和接收電子郵件的資訊
+    - 是一個「推播」協定
+    - 允許電腦和伺服器交換資料
+    - 網際網路中大部分使用者的寄信標準協定
   - pop3 
     - 郵局協議 (Post Office Protocol) 
+    - 是TCP/IP協定族中的一員
+    - 由 POP1、POP2演進至 POP3
+    - 簡單易用
+    - POP支援離線郵件處理
 - SNMP
     - 簡單網路管理協定 (Simple Network Management Protocol)
+    - 它由一組網路管理的標準組成
+    - 是網路監控與裝置通訊的命脈
+    - 網路管理員嚴重依賴 SNMP
+    - 用於交換網路裝置之間的管理資訊
 
 ## 簡述底下傳輸層協定(英文全名與簡單功能說明):
 - TCP vs UDP
   - TCP
     - 傳輸控制協定 (Transmission Control Protocol)
+    - 資料是按照順序發送
+    - 容易發現和修復錯誤
+    - 發送的資料能完全到達目的地
+    - 建立連線和交換資料需要更多的時間
+    - 
   - UDP
     - 使用者資料包協定 (User Datagram Protocol)
-  
-  
- - reliable(可靠的) vs unreliable(不可靠的)
- - TCP three-way handshaking(三項交握)  
+    - 以串流方式傳送資料
+    - 幾乎沒有錯誤修正功能
+    - 很容易出錯
+    - 傳輸速度比 TCP 更快
+ - Reliable(可靠的) vs Unreliable(不可靠的)
+   - Reliable
+     - 可靠的 (Reliable) 
+     - 是一種通信協定
+     - 是保證的代名詞
+     - 是國際電聯和ATM論壇使用的術語
+     - 執行速度較慢且可伸縮性較低
+   - Unreliable
+     - 不可靠的 (Unreliable)
+     - UDP是一種不可靠的協定
+     - Make no effort to set up a connection.
+     - They don't check to see if the data was received and usually don't make any provisions for recovering from errors or lost data.
+     - Work best over physical medium with low loss and low error rates.
+ - TCP three-way handshaking(三向交握) 
+   - 三次訊息的交換
+   - 是 TCP 建立傳送的重點機制
+   - 主要目的是可確保資料通訊的正確傳輸
+   - SYN、ACK 是 TCP 封包中的控制位元 
+   - 第一以及第二步驟如果遺失的話，整個步驟就必須重新來過
  - TCP syn flood attack
-
+   - SYN 洪水攻擊
+   - 是一種阻斷服務 (DDoS) 攻擊
+   - 半開放式攻擊
+   - 一般對現代網路不太有效
+   - 攻擊者能夠淹沒目標伺服器上所有可用的連接埠
 ## 簡述底下網路層協定(英文全名與簡單功能說明):
 - IP
   - 網際協定 (Internet Protocol)
+  - 用於封包交換資料網路的協定
+  - 定義網際網路中最基本的服務
+  - IP 是在 TCP/IP 協定套組中網路層的主要協定
+  - IP 封包中並沒有定義任何錯誤偵測的資料
 - ICMP
   - 網際網路控制訊息協定 (Internet Control Message Protocol)
+  - 是網際網路協定套組的核心協定之一
+  - 這個網路協定運用在網路七層協定中的第三層
+  - 用來解析網路封包或是分析路由的情況
+  - 可以對所發生的問題作出診斷
