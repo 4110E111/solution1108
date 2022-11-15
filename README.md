@@ -93,7 +93,7 @@
     - 允許電腦和伺服器交換資料
     - 網際網路中大部分使用者的寄信標準協定
   - `pop3` 
-    - 郵局協議 (Post Office Protocol) 
+    - 郵局協議 (Post Office Protocol – Version 3) 
     - 是TCP/IP協定族中的一員
     - 由 POP1、POP2演進至 POP3
     - 簡單易用
