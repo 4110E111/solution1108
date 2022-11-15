@@ -53,6 +53,12 @@
     - DNS 將網域名稱轉換為 IP 位址
     - 每個 Domain Name 必須對應要一組 IP
     - 長度不能超過253個字元
+  - `DNSsec`
+    - 域名系統安全擴充 (Domain Name System Security Extensions)
+    - 是一種先進的 DNS 功能
+    - 為網域名稱的 DNS 加上電子簽名
+    - 可以保護網路使用者不受假造 DNS 資料的威脅
+    - 驗證不存在性和校驗資料完整性驗證
 - telnet vs ssh
   - `telnet`
     - Telnet 是一種應用層協議 
